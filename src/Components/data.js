@@ -1,5 +1,6 @@
 export const testOne = {
   id: 1,
+  img: require("../images/image-daniel.jpg"),
   author: "Daniel Clifford",
   status: "Verified Graduate",
   heading:
@@ -9,6 +10,7 @@ export const testOne = {
 
 export const testTwo = {
   id: 2,
+  img: require("../images/image-jonathan.jpg"),
   author: "Jonathan Walters",
   status: "Verified Graduate",
   heading: "The team was very supportive and kept me motivated",
@@ -17,6 +19,7 @@ export const testTwo = {
 
 export const testThree = {
   id: 3,
+  img: require("../images/image-jeanette.jpg"),
   author: "Jeanette Harmon",
   status: "Verified Graduate",
   heading: "An overall wonderful and rewarding experience",
@@ -25,6 +28,7 @@ export const testThree = {
 
 export const testFour = {
   id: 4,
+  img: require("../images/image-patrick.jpg"),
   author: "Patrick Abrams",
   status: "Verified Graduate",
   heading:
@@ -34,6 +38,7 @@ export const testFour = {
 
 export const testFive = {
   id: 5,
+  img: require("../images/image-kira.jpg"),
   author: "Kira Whittle",
   status: "Verified Graduate",
   heading: "Such a life-changing experience. Highly recommended!",
