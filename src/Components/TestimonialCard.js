@@ -4,7 +4,7 @@ import "./TestimonialCard.css";
 const TestimonialCard = (props) => {
   return (
     <div
-      className="card-container"
+      className={`card-container ${props.class}`}
       style={{ backgroundColor: props.background }}
     >
       <div className="author">

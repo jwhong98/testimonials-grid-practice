@@ -6,7 +6,7 @@ import { testOne, testTwo, testThree, testFour, testFive } from "./data";
 const Testimonials = () => {
   return (
     <div className="testimonials-container">
-      <TestimonialCard {...testOne} />
+      <TestimonialCard {...testOne} className="one" />
       <TestimonialCard {...testTwo} />
       <TestimonialCard {...testThree} />
       <TestimonialCard {...testFour} />

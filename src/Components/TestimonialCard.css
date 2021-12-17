@@ -45,3 +45,34 @@
   font-size: 1.45rem;
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 1440px) {
+  .card-container {
+    width: unset;
+    margin: 0;
+  }
+
+  .body {
+    margin: 0;
+  }
+
+  .one {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  .three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .four {
+    grid-column: 2/4;
+    grid-row: 2;
+  }
+
+  .five {
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+}
