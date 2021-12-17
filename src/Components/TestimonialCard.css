@@ -1,0 +1,47 @@
+.card-container {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.author-status {
+  color: hsl(0, 0%, 100%);
+  opacity: 50%;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.13rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.body {
+  color: hsl(0, 0%, 100%);
+  opacity: 70%;
+  font-size: 1.45rem;
+  margin-bottom: 10px;
+}

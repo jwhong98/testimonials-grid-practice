@@ -1,4 +1,5 @@
 import React from "react";
+import "./Testimonials.css";
 import TestimonialCard from "./TestimonialCard";
 import { testOne, testTwo, testThree, testFour, testFive } from "./data";
 
